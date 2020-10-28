@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5rem;
+}
+
+h1, p{
+  color: white;
+}
+p{
+  font-size: 30px;
+}
+#previous-btn, #next-btn{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: white;
+  font-size: 60px;
+}
+
+#previous-btn:hover , #next-btn:hover{
+  color: #2F4F4F;
+}
+
+#chars{
+  padding-top: 2rem;
+}
+.container{
+  min-height: 55vh;
+}
+
+.card{
+  margin-bottom: 2rem;
+  min-height: 8rem;
+  cursor:pointer;
+}
+
+.mid-left {
+  top: 45%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+.mid-right {
+  top: 45%;
+  right: 15%;
+  transform: translateY(-50%);
+}
+.download-btn, .reset-btn{
+  color: white;
+  min-width: 10rem;
+  font-size: 20px;
+  margin: 0.5rem;
+  border: none;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.download-btn{
+  background-color: red;
+}
+.reset-btn{
+  background-color: green;
+}
+.panel{
+  visibility: hidden;
+}
