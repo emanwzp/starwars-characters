@@ -9,8 +9,18 @@ body {
 h1, p{
   color: white;
 }
+h1{
+  font-size: 2.5vw;
+}
 p{
-  font-size: 30px;
+  font-size: 1.5vw;
+}
+
+.container{
+  min-height: 55vh;
+  max-height: 65vh;
+  min-width: 55vw;
+  max-width: 65vw;
 }
 #previous-btn, #next-btn{
   background-color: Transparent;
@@ -30,24 +40,24 @@ p{
 #chars{
   padding-top: 2rem;
 }
-.container{
-  min-height: 55vh;
-}
+
 
 .card{
   margin-bottom: 2rem;
-  min-height: 8rem;
   cursor:pointer;
+}
+.card-title{
+  font-size: 1vw;
 }
 
 .mid-left {
-  top: 51.5%;
-  left: 15%;
+  top: 60%;
+  left: 10vw;
   transform: translateY(-50%);
 }
 .mid-right {
-  top: 51.5%;
-  right: 15%;
+  top: 60%;
+  right: 10vw;
   transform: translateY(-50%);
 }
 .download-btn, .reset-btn{
