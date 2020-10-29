@@ -15,7 +15,7 @@ function loadChars(source){
         //replace http to https
         var url = data.next;
         url = url.replace("http", "https");
-        loadChars(data.next);
+        loadChars(url);
       }
       var results = data.results;
       for(i = 0; i < results.length; i++){
