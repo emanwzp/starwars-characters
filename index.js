@@ -94,7 +94,7 @@ function showChar(index){
   img.setAttribute("class", "col-5");
   img.setAttribute("src", img_source);
   var body = document.createElement("div");
-  body.setAttribute("class", "card-body col-6");
+  body.setAttribute("class", "card-body col-7");
   var cont = document.createElement("h5");
   cont.setAttribute("class", "card-title");
   cont.innerHTML = char.name;

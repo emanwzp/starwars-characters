@@ -1,9 +1,8 @@
 body {
   background-image: url("https://cdn.pixabay.com/photo/2016/06/05/07/59/stars-1436950_960_720.jpg");
   background-color: #cccccc;
-  background-repeat: no-repeat;
   background-size: 100%;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 h1, p{
@@ -17,8 +16,8 @@ p{
 }
 
 .container{
-  min-height: 55vh;
-  max-height: 65vh;
+  min-height: 65vh;
+
   min-width: 55vw;
   max-width: 65vw;
 }
@@ -51,12 +50,12 @@ p{
 }
 
 .mid-left {
-  top: 60%;
+  top: 55%;
   left: 10vw;
   transform: translateY(-50%);
 }
 .mid-right {
-  top: 60%;
+  top: 55%;
   right: 10vw;
   transform: translateY(-50%);
 }
