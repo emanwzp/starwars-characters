@@ -41,12 +41,12 @@ p{
 }
 
 .mid-left {
-  top: 45%;
+  top: 51.5%;
   left: 15%;
   transform: translateY(-50%);
 }
 .mid-right {
-  top: 45%;
+  top: 51.5%;
   right: 15%;
   transform: translateY(-50%);
 }
