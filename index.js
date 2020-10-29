@@ -130,6 +130,7 @@ function cardClicked(id){
     "YOU HAVE SELECTED " + char_1 + ", " + char_2 + " AND " + char_3;
   }else{
     $(".panel").css("visibility", "hidden");
+    document.getElementById("char-msg").innerHTML = "Select 3 Characters!";
   }
 }
 
